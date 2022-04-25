@@ -1,0 +1,102 @@
+.boxShadow {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0);
+}
+Label {
+    -fx-padding: 10px;
+}
+
+.bg-1 {
+    -fx-background-color: linear-gradient(to right bottom, #1b3655, #263f5d, #304864, #3a516c, #445a74);
+}
+
+.bg-2 {
+}
+
+.bg-3 {
+}
+
+.bg-4 {
+    -fx-background-color: #FFFFFF;
+}
+
+.bg-5 {
+    -fx-background-color: #befaff;
+}
+
+.bg-6 {
+    -fx-background-color: #c4c4ff;
+}
+.labeliconchart{
+    -fx-padding: 0 12.5 0 12.5;
+    -fx-background-color: transparent;
+}
+.labeliconaddress{
+     -fx-padding: 0 15 0 15;
+    -fx-background-color: transparent;
+ }
+.labeliconcog{
+    -fx-padding: 0 12.5 0 12.5;
+    -fx-background-color: transparent;
+}
+.btn-primary {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #428bca;
+    -fx-border-color: #357ebd;
+    -fx-cursor: hand;
+}
+.btn-primary:hover {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3276b1;
+    -fx-border-color: #285e8e;
+}
+.btn-primary:disabled {
+    -fx-background-color: #428bca;
+    -fx-border-color: #357ebd;
+}
+.transparent{
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+}
+.labelspacing{
+    -fx-line-spacing: 8px;
+}
+.card:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-cursor: hand;
+}
+.testbg {
+    -fx-background-color: red;
+}
+@font-face {
+    font-family: "User Upright W00 Bold Cameo";
+    src: url('font.ttf');
+}
+.inputtransparent {
+    -fx-text-box-border: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-fill: #000000;
+    -fx-font-family: "User Upright W00 Bold Cameo";
+    -fx-font-size: 11pt;
+}
+.inputtransparent:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.login-container{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+}
+.page-button{
+    -fx-background-color: transparent;
+}
+.page-button:hover{
+    -fx-underline: true;
+    -fx-text-fill: red;
+}
+.transparent-padding{
+    -fx-background-color: transparent;
+}
+.tf-disabled{
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
